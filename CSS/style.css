@@ -378,7 +378,7 @@ main .post-content .post-title a {
 }
 
 .site-content .sidebar .newsletter {
-    padding-top: 3rem;
+    padding-top: 0.5rem;
 }
 
 .site-content .sidebar .newsletter .form-element {
@@ -398,6 +398,17 @@ main .post-content .post-title a {
     padding: .8rem 30%;
     margin: 1rem 0;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.site-content .sidebar .popular-tags {
+    padding: 3rem 0;
+}
+
+.site-content .sidebar .popular-tags .tags .tag {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
 }
 
 /*---------x------------ Sidebar -----------x---------*/
