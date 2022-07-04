@@ -209,7 +209,7 @@ main .blog {
     background-color: rgb(138, 156, 175);
     background-repeat: no-repeat;
     background-position: right;
-    height: 100vh;
+    height: 118vh;
     width: 100%;
     background-size: 65%;
 }
@@ -292,12 +292,12 @@ main .site-content .post-content > .post-image > div {
 
 main .site-content .post-content > .post-image .img {
     width: 100%;
-    height: 440px;
+    height: 375px;
     transition: all 1s ease;
 }
 
 main .site-content .post-content > .post-image .img:hover {
-    transform: scale(1.3);
+    transform: scale(1.4);
 }
 
 main .site-content .post-content > .post-image .post-info span {
@@ -336,6 +336,71 @@ main .post-content .post-title a {
 }
 
 /*---------x------------ Site Content -----------x---------*/
+
+/*---------------------- Sidebar ---------------------*/
+
+.site-content > .sidebar .category-list {
+    font-family: var(--Nunito)
+}
+
+.site-content > .sidebar .category-list .list-items {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-content > .sidebar .category-list .list-items a {
+    color: black;
+}    
+
+.site-content .sidebar .popular-posts .post-content {
+    padding: 1rem 0;
+}
+
+.site-content .sidebar .popular-posts h2 {
+    padding-top: 6rem;
+}
+
+.site-content .sidebar .popular-posts .post-info {
+    padding: .4rem .1rem !important;
+    bottom: 0rem !important;
+    left: 1.5rem !important;
+    border-radius: 0rem !important;
+    background: white !important;
+}
+
+.site-content .sidebar .popular-posts .post-title a {
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter {
+    padding-top: 3rem;
+}
+
+.site-content .sidebar .newsletter .form-element {
+    padding: .5rem 2rem;
+}
+
+.site-content .sidebar .newsletter .input-element {
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .5rem;
+    font-family: geneva;
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter .form-btn {
+    border-radius: 0;
+    padding: .8rem 30%;
+    margin: 1rem 0;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+/*---------x------------ Sidebar -----------x---------*/
 
 /*---------------x---------------Main Content--------------x---------------*/
 
