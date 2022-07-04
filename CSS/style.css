@@ -67,6 +67,14 @@ button.btn {
     font-weight: 600;
 }
 
+span{
+    font-family: geneva;
+}
+
+.container {
+    margin: 0.5vw;
+}
+
 /*----------x---------------Global Classes--------------x----------*/
 
 /*-------------------------navbar------------------------*/
@@ -184,6 +192,58 @@ main .site-title .btn:hover {
 }
 
 /*----------x------------ Site title -----------x----------*/
+
+/*---------------------- Blog Carousel ---------------------*/
+
+main .blog {
+    background-color: rgba(119, 136, 153, 0.847);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+
+main .blog .blog-post {
+    padding-top: 4rem;
+}
+
+main .blog-post .blog-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin: 0rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .blog-content .blog-title {
+    padding: 1.5rem 0;
+}
+
+main .blog-content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--sky);
+    margin: .5rem;
+}
+
+main .blog-content span {
+    display: block;
+}
+
+section .container .owl-navigation{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*.owl-navigation .owl-span-prev,
+.owl-navigation .owl-span-next, {
+}*/
+
+/*---------x------------ Blog Carousel -----------x---------*/
+
 
 /*---------------x---------------Main Content--------------x---------------*/
 
