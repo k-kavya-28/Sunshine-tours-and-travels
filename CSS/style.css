@@ -43,6 +43,30 @@ ul {
     list-style-type: none;
 }
 
+h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: var(--Nunito);
+    font-size: 1.3rem;
+}
+
+button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-family: geneva;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 /*----------x---------------Global Classes--------------x----------*/
 
 /*-------------------------navbar------------------------*/
@@ -51,7 +75,7 @@ ul {
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 100vh;
+    min-height: 13vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
 }
@@ -63,7 +87,7 @@ ul {
 .nav .toggle-collapse {
     position: absolute;
     top: 0%;
-    width: 100%;
+    width: 90%;
     cursor: pointer;
     display: none;
 }
@@ -72,6 +96,10 @@ ul {
     display: flex;
     justify-content: flex-end;
     padding: 1.7rem 0;
+}
+
+.collapse {
+    height: 30rem;
 }
 
 .nav .toggle-collapse .toggle-icons i {
@@ -121,6 +149,43 @@ ul {
 }
 
 /*----------x---------------navbar--------------x----------*/
+
+/*------------------------------ Main Content -----------------------------*/
+
+/*---------------------- Site title ---------------------*/
+
+main .site-title {
+    background: url('../assets/bg.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background {
+    padding-top: 8.1rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h1,h3 {
+    margin: .1rem;
+}
+
+main .site-title .btn {
+    margin: 1.2rem;
+    background: rgb(167, 216, 230);
+}
+
+main .site-title .btn:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: var(--white);
+}
+
+/*----------x------------ Site title -----------x----------*/
+
+/*---------------x---------------Main Content--------------x---------------*/
 
 /*      viewport less than or equal to 750px        */
 
