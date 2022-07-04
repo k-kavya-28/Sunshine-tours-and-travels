@@ -27,3 +27,9 @@
     font-family: BioRhyme;
     src: url('../fonts/BioRhyme/BioRhyme-Regular.ttf');
 }
+
+/*font-family: Abel*/
+@font-face {
+    font-family: Abel;
+    src: url('../fonts/Abel/Abel-Regular.ttf');
+}
