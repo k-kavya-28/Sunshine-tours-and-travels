@@ -225,13 +225,13 @@ main .blog-content .blog-title {
 
 main .blog-content .btn-blog{
     padding: .7rem 2rem;
-    background: var(--sky);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     margin: .5rem;
 }
 
 main .blog-content .btn-blog:hover {
     background: transparent;
-    border: 3px black solid;
+    border: 2px black solid;
 }
 
 main .blog-content span {
